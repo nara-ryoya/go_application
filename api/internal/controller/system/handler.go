@@ -4,7 +4,7 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-type SystemHandler struct {}
+type SystemHandler struct{}
 
 // HealthCheck godoc
 // @Summary 死活監視用
@@ -16,7 +16,7 @@ type SystemHandler struct {}
 
 func (h *SystemHandler) Health(ctx *gin.Context) {
 	ctx.JSON(200, gin.H{
-		"status": "ok"
+		"status": "ok",
 	})
 }
 

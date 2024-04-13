@@ -1,0 +1,11 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "description": "ユーザー管理サービスAPIの機能",
+        "title": "ユーザー管理サービスAPI",
+        "contact": {},
+        "version": "v0.1.0"
+    },
+    "host": "localhost:8080",
+    "paths": {}
+}
