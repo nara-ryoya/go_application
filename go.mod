@@ -1,5 +1,4 @@
-module go-backend
-
+module github.com/nara-ryoya/go_application
 go 1.22.0
 
 require (
